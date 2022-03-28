@@ -8,98 +8,104 @@
     <title>justify-content</title>
 </head>
 <body>
-    <header>
-        <h1>FLEXBOX</h1>
-        <nav>
-            <div class="navbar">
-                <ul>
-                    <li><a href="../index.html">INICIO</a></li>
-                </ul>   
-            </div>
-            <div class="navbar">
-                <p>PARENT</p>
-                <ul>
-                    <li><a href="align_content.html">ALIGN-CONTENT</a></li>
-                    <li><a href="align_items.html">ALIGN-ITEMS</a></li>
-                    <li><a href="flex_wrap.html">FLEX-WRAP</a></li>
-                    <li><a href="flex_direction.html">FLEX-DIRECTION</a></li>
-                    <li><a href="flex_flow.html">FLEX-FLOW</a></li>
-                    <li><a href="justify_content.html">JUSTIFY-CONTENT</a></li>
-                    <li><a href="gap_rowgap_column_gap.html">GAP, ROW-GAP, COLUMN-GAP</a></li>
-                </ul>
-            </div>
-            <div class="navbar">
-                <p>CHILDREN</p>
-                <ul>
-                    <li><a href="../children/align_self.html">ALIGN-SELF</a></li>
-                    <li><a href="../children/flex_basis.html">FLEX-BASIS</a></li>
-                    <li><a href="../children/flex_grow.html">FLEX-GROW</a></li>
-                    <li><a href="../children/flex_shrink.html">FLEX-SHRINK</a></li>
-                    <li><a href="../children/order.html">ORDER</a></li>
-                    <li><a href="../children/flex.html">FLEX</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
+    <div class="page-wraper">
+        <header>
+            <nav>
+                <div class="navbar navbar-inicio">
+                    <ul>
+                        <li><a href="../index.html">FLEXBOX</a></li>
+                    </ul>   
+                </div>
+                <div class="navbar navbar-parent">
+                    <p class="nav-description">PARENT</p>
+                    <ul>
+                        <li><a href="align_content.html">ALIGN-CONTENT</a></li>
+                        <li><a href="align_items.html">ALIGN-ITEMS</a></li>
+                        <li><a href="flex_wrap.html">FLEX-WRAP</a></li>
+                        <li><a href="flex_direction.html">FLEX-DIRECTION</a></li>
+                        <li><a href="flex_flow.html">FLEX-FLOW</a></li>
+                        <li><a href="justify_content.html">JUSTIFY-CONTENT</a></li>
+                        <li><a href="gap_rowgap_column_gap.html">GAP, ROW-GAP, COLUMN-GAP</a></li>
+                    </ul>
+                </div>
+                <div class="navbar navbar-children">
+                    <p class="nav-description">CHILDREN</p>
+                    <ul>
+                        <li><a href="../children/align_self.html">ALIGN-SELF</a></li>
+                        <li><a href="../children/flex_basis.html">FLEX-BASIS</a></li>
+                        <li><a href="../children/flex_grow.html">FLEX-GROW</a></li>
+                        <li><a href="../children/flex_shrink.html">FLEX-SHRINK</a></li>
+                        <li><a href="../children/order.html">ORDER</a></li>
+                        <li><a href="../children/flex.html">FLEX</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         <h2>JUSTIFY-CONTENT</h2>
-        <div class="concept">
-            <h3>flex-start</h3>
-            <div class="line line-1">
-                <div class="square square-1"><p>1</p></div>
-                <div class="square square-2"><p>2</p></div>
-                <div class="square square-3"><p>3</p></div>
-                <div class="square square-4"><p>4</p></div>
+        <section class="section section-justify-content">
+            <div class="subsection subsection-1">
+                <div class="concept concept-1">
+                    <h3>flex-start</h3>
+                    <div class="line line-1">
+                        <div class="square square-1"><p class="number">1</p></div>
+                        <div class="square square-2"><p class="number">2</p></div>
+                        <div class="square square-3"><p class="number">3</p></div>
+                        <div class="square square-4"><p class="number">4</p></div>
+                    </div>
+                </div>
+                <div class="concept concept-2">
+                    <h3>flex-end</h3>
+                    <div class="line line-2">
+                        <div class="square square-1"><p class="number">1</p></div>
+                        <div class="square square-2"><p class="number">2</p></div>
+                        <div class="square square-3"><p class="number">3</p></div>
+                        <div class="square square-4"><p class="number">4</p></div>
+                    </div>
+                </div>
+                <div class="concept concept-3">
+                    <h3>space-between</h3>
+                    <div class="line line-3">
+                        <div class="square square-1"><p class="number">1</p></div>
+                        <div class="square square-2"><p class="number">2</p></div>
+                        <div class="square square-3"><p class="number">3</p></div>
+                        <div class="square square-4"><p class="number">4</p></div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="concept">
-            <h3>flex-end</h3>
-            <div class="line line-2">
-                <div class="square square-1"><p>1</p></div>
-                <div class="square square-2"><p>2</p></div>
-                <div class="square square-3"><p>3</p></div>
-                <div class="square square-4"><p>4</p></div>
+            <div class="subsection subsection-2">
+                <div class="concept concept-4">
+                    <h3>space-around</h3>
+                    <div class="line line-4">
+                        <div class="square square-1"><p class="number">1</p></div>
+                        <div class="square square-2"><p class="number">2</p></div>
+                        <div class="square square-3"><p class="number">3</p></div>
+                        <div class="square square-4"><p class="number">4</p></div>
+                    </div>
+                </div>
+                <div class="concept concept-5">
+                    <h3>center</h3>
+                    <div class="line line-5">
+                        <div class="square square-1"><p class="number">1</p></div>
+                        <div class="square square-2"><p class="number">2</p></div>
+                        <div class="square square-3"><p>3</p></div>
+                        <div class="square square-4"><p>4</p></div>
+                    </div>
+                </div>
+                <div class="concept concept-6">
+                    <h3>space-evenly</h3>
+                    <div class="line line-6">
+                        <div class="square square-1"><p>1</p></div>
+                        <div class="square square-2"><p>2</p></div>
+                        <div class="square square-3"><p>3</p></div>
+                        <div class="square square-4"><p>4</p></div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="concept">
-            <h3>space-between</h3>
-            <div class="line line-3">
-                <div class="square square-1"><p>1</p></div>
-                <div class="square square-2"><p>2</p></div>
-                <div class="square square-3"><p>3</p></div>
-                <div class="square square-4"><p>4</p></div>
-            </div>
-        </div>
-        <div class="concept">
-            <h3>space-around</h3>
-            <div class="line line-4">
-                <div class="square square-1"><p>1</p></div>
-                <div class="square square-2"><p>2</p></div>
-                <div class="square square-3"><p>3</p></div>
-                <div class="square square-4"><p>4</p></div>
-            </div>
-        </div>
-        <div class="concept">
-            <h3>center</h3>
-            <div class="line line-5">
-                <div class="square square-1"><p>1</p></div>
-                <div class="square square-2"><p>2</p></div>
-                <div class="square square-3"><p>3</p></div>
-                <div class="square square-4"><p>4</p></div>
-            </div>
-        </div>
-        <div class="concept">
-            <h3>space-evenly</h3>
-            <div class="line line-6">
-                <div class="square square-1"><p>1</p></div>
-                <div class="square square-2"><p>2</p></div>
-                <div class="square square-3"><p>3</p></div>
-                <div class="square square-4"><p>4</p></div>
-            </div>
-        </div>
-    </main>
-    <footer>
-            <p class="autor"> &#169 Emanuel Maza </p>
-    </footer>    
+        </section>
+        <footer>
+                <p class="autor"> &#169 Emanuel Maza </p>
+        </footer>
+        <script src=""></script>
+    </div>    
 </body>
 </html>
